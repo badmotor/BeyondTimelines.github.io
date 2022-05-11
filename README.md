@@ -1,5 +1,5 @@
-# Beyond-2022.github.io
-Project dedicated to the Beyond 2022 Project
+# BeyondTimelines.github.io
+Timeline visualizations over the Beyond 2022 (Virtual Treasury Ireland) Knowledge Graph of Irish History.
 
 ## Setup
 
