@@ -346,14 +346,16 @@
                     console.log(segment.target.__data__.label);
                     var segmentName = segment.target.__data__.label;
                     var queryCode;
+                    var link;
                     for (i = 0; i < data.length; i++) {
                         if (data[i].oName == segmentName) {
                             queryCode = data[i].obj;
+                            link = data[i].normalized_uri;
                             break;
                         }
                     }
-                    console.log(queryCode);
-                    window.open('explore.html?subj=http://localhost:3030/Beyond_2022/query', '_self');
+                    console.log(link);
+                    window.open(link, '_blank');
                     
                 }
                 
